@@ -1,0 +1,27 @@
+body {
+  font-family: 'Poiret One', cursive;
+  font-size: 2em;
+  margin-top: 50px;
+  text-align: center;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 500px;
+
+}
